@@ -7,7 +7,7 @@ services:
     depends_on:
       - swetrix-api
     ports:
-      - '80:1234'
+      - '1234:80'
     environment:
       - API_URL=http://localhost:8080/
       - REACT_APP_AIAPI_URL=https://aiapi.swetrix.com/
