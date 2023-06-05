@@ -34,7 +34,6 @@ async function bootstrap() {
     res.header('Cross-Origin-Opener-Policy', "same-site; report-to='default'")
     res.header('Cross-Origin-Resource-Policy', 'same-site')
     res.header('Permissions-Policy', 'interest-cohort=()')
-    res.header('Referrer-Policy', 'strict-origin-when-cross-origin')
     res.header('X-Frame-Options', 'DENY')
     res.header('X-Powered-By', 'Mountain Dew')
     res.header('X-XSS-Protection', '1; mode=block')
